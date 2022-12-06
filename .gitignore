@@ -1,0 +1,10 @@
+
+# Ignorar node_modules/
+node_modules/
+
+# Este archivo es para ambiente local 
+.env 
+
+
+
+
