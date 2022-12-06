@@ -45,9 +45,36 @@ Realizamos nuestro primer commit.
 
   ```
 
+### Creamos en github un nuevo repositorio llamado ``node-webserver/`` de forma publica 
+
+Una vez que lo creamos se nos entrega la siguiente inforomacion con los comandos para realizar nuestros cambios al repositorio.
+
+#### or Create a new repository on the command line
+
+```
+echo "# node-webserver" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/zamudpoe/node-webserver.git
+git push -u origin main
+```
+#### …or push an existing repository from the command line
+
+```
+git remote add origin https://github.com/zamudpoe/node-webserver.git
+git branch -M main
+git push -u origin main
+```
+> **NOTA :** Estos son los comandos que vamos a ocupar 
+
+Una vez realizado procedemos a consultar nuestro repositorio [node-webserver-railwayapp] en github para apreciar que ya esta subido nuestro proyecto.
 
 
 
 --- 
 
 [Railway]:(https://railway.app/)
+[node-webserver-railwayapp]:(https://github.com/zamudpoe/node-webserver)
+
