@@ -71,10 +71,46 @@ git push -u origin main
 
 Una vez realizado procedemos a consultar nuestro repositorio [node-webserver-railwayapp] en github para apreciar que ya esta subido nuestro proyecto.
 
+Ahora cada vez que realizemos algun cambio que deseemos subir 
+
+```
+git add . 
+
+git commit -m "2do commit"
+
+git push -u origin main
+```
+
+## Desplegar en railway desde github
+
+1. Le damos click a nuevo proyecto 
+1. le damos a "Deploy from github repo" 
+1. En la ventana emergente escogemos : "Only select repositories" y elegimos nuestro repositorio "node-webserver" 
+1. Confirmamos nuestro password de github
+1. le damos en ``deploy now`` y listo 
+
+Cuando termine de hacer el despliegue desde **github** nos lo informara con el mensaje de **"success"** en el dashboard de nuestro proyecto. 
+
+
+## Configuracion de variables de entorno.
+
+En el dashboard del proyecto , en la pestaña ``Variables`` crearemos nuestras variables de entorno dandole click "+ New Variable" 
+
+* Port 
+
+## Exponer el servicio al acceso publico (internet)
+
+1. Le damos click derecho sobre el proyecto en el dashboard.
+1. Escogemos **"View Settings"**
+1. Le damos a **"Generar Domain"** 
+   * nos eentregara una url donde estara desplegada nuestra aplicacion , en nuestro caso es [node-webserver-railwaysapp] 
+
+
+
 
 
 --- 
 
 [Railway]:(https://railway.app/)
 [node-webserver-railwayapp]:(https://github.com/zamudpoe/node-webserver)
-
+[node-webserver-railwaysapp]:(https://node-webserver-production.up.railway.app/)
